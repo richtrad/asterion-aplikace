@@ -1,0 +1,3 @@
+Mozilla PDF.js 6.4.299
+https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-6.4.299.tgz
+License: Apache-2.0 (see LICENSE).

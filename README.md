@@ -43,7 +43,9 @@ node --test tests/*.test.mjs
 ```
 
 Otevřete `http://127.0.0.1:8792`. Stránka potřebuje HTTP server kvůli načítání JSON.
-Neobsahuje framework, externí analytiku ani přihlašování.
+Neobsahuje framework, externí analytiku ani přihlašování. Původní PDF vykresluje
+lokálně přibalená Mozilla PDF.js 6.4.299 (Apache-2.0); licence a verze jsou
+v `public/vendor/pdfjs/`. Dokumenty se neposílají žádné externí službě.
 
 ## Nasazení
 
