@@ -1,0 +1,5 @@
+qa/
+.wrangler/
+node_modules/
+__pycache__/
+*.tmp

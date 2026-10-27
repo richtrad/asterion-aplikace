@@ -1,0 +1,1484 @@
+{
+  "updated": "2026-10-27",
+  "entities": [
+    {
+      "id": "bytost.huama",
+      "label": "Huama",
+      "kind": "bytost",
+      "modules": [
+        "ct"
+      ]
+    },
+    {
+      "id": "bytost.draskara",
+      "label": "Draskara",
+      "kind": "bytost",
+      "modules": [
+        "pp"
+      ]
+    },
+    {
+      "id": "bytost.epyra",
+      "label": "Epyra",
+      "kind": "bytost",
+      "modules": [
+        "ct"
+      ]
+    },
+    {
+      "id": "bytost.temny-vlk",
+      "label": "Temný vlk",
+      "kind": "bytost",
+      "modules": [
+        "ns"
+      ]
+    },
+    {
+      "id": "rod.poustni-elf",
+      "label": "Pouštní elf",
+      "kind": "rod",
+      "modules": [
+        "pp"
+      ]
+    },
+    {
+      "id": "rod.nunmejec",
+      "label": "Nunmejec",
+      "kind": "rod",
+      "modules": [
+        "pp"
+      ]
+    },
+    {
+      "id": "material.lintir",
+      "label": "Lintir",
+      "kind": "material",
+      "modules": [
+        "ct"
+      ]
+    },
+    {
+      "id": "predmet.albirejska-koruna",
+      "label": "Albirejská koruna",
+      "kind": "predmet",
+      "modules": [
+        "ct"
+      ]
+    },
+    {
+      "id": "pravidlo.magicky-pomocnik",
+      "label": "Magický pomocník",
+      "kind": "pravidlo",
+      "modules": [
+        "fa",
+        "zzs",
+        "vtb"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "bytost.huama.drd_16.zakladni",
+      "entity_id": "bytost.huama",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "zakladni",
+      "coverage": "partial_transcription",
+      "values": {
+        "zivotaschopnost": 6,
+        "obranne_cislo": 6,
+        "pohyblivost": {
+          "value": 17,
+          "type": "selma"
+        },
+        "odolnost": 15,
+        "emoce": "strach",
+        "rezistence": "paralýza 80 %",
+        "imunity": [
+          "iluze",
+          "jedy",
+          "neviditelnost"
+        ]
+      },
+      "summary": null,
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": null,
+          "section": "Huama"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.huama.drd_16.vyssi",
+      "entity_id": "bytost.huama",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "vyssi",
+      "coverage": "partial_transcription",
+      "values": {
+        "zivotaschopnost": 10,
+        "obranne_cislo": 8,
+        "pohyblivost": {
+          "value": 20,
+          "type": "selma"
+        },
+        "odolnost": 18,
+        "emoce": "strach",
+        "regenerace": 1,
+        "imunity": [
+          "iluze",
+          "jedy",
+          "neviditelnost",
+          "paralýza"
+        ]
+      },
+      "summary": null,
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            32,
+            33
+          ],
+          "printed_pages": null,
+          "section": "Huama"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.huama.drd_plus.urovnovy_rust",
+      "entity_id": "bytost.huama",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "urovnovy_rust",
+      "coverage": "partial_transcription",
+      "values": {
+        "BC": 6,
+        "UC_drapy": 6,
+        "UC_tlama": 5,
+        "OC": 5,
+        "zraneni_drapy": "7 S",
+        "zraneni_tlama": "8 B",
+        "ochrana": 4,
+        "emoce": "strach"
+      },
+      "summary": null,
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "092b9759ca38a589",
+          "pdf_pages": [
+            30,
+            31
+          ],
+          "printed_pages": null,
+          "section": "Huama"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.huama.drd_ii.zaklad_a_rozsireni",
+      "entity_id": "bytost.huama",
+      "system_id": "drd_ii",
+      "edition": null,
+      "application_version": null,
+      "variant": "zaklad_a_rozsireni",
+      "coverage": "partial_transcription",
+      "values": {
+        "charakteristika": "2–3",
+        "sudba": 9,
+        "hranice": {
+          "telo": 6,
+          "duse": 4,
+          "vliv": 3
+        },
+        "paralyza_sila": 6,
+        "emoce": "strach"
+      },
+      "summary": null,
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "6915d749657c9ef7",
+          "pdf_pages": [
+            64
+          ],
+          "printed_pages": null,
+          "section": "Huama"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.huama.dh.jediny_nalezeny_blok",
+      "entity_id": "bytost.huama",
+      "system_id": "dh",
+      "edition": "1.1",
+      "application_version": "06/2025",
+      "variant": "jediny_nalezeny_blok",
+      "coverage": "partial_transcription",
+      "values": {
+        "zivoty": 29,
+        "uroven": 3,
+        "vyssi_moc": 11,
+        "zakladni_obrana": 8,
+        "obrana": 9,
+        "pohyblivost": 80,
+        "emoce": "rozhořčení"
+      },
+      "summary": null,
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            35
+          ],
+          "printed_pages": [
+            34
+          ],
+          "section": "Huama"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.draskara.drd_16.pilot8.1",
+      "entity_id": "bytost.draskara",
+      "system_id": "drd_16",
+      "edition": "DrD 16",
+      "application_version": null,
+      "variant": "zakladni",
+      "coverage": "partial_transcription",
+      "values": {
+        "zivotaschopnost": "3+2",
+        "Útok": "3/+3 (zuby)",
+        "obranne_cislo": 4,
+        "odolnost": 14,
+        "pohyblivost": "14 pozemní / 18 let",
+        "emoce": "nenávist",
+        "Magenergie": 15,
+        "Útok na brnění": "v bloku neuveden"
+      },
+      "summary": "Magie a pohlcování ohně, dvojnásobná rychlost a vidění ve tmě (v 1.6 upřesněno: za šera); vyšší varianta přidává pohlcování vzduchu a imunitu vůči ohni. Verze 1.6 uvádí dech 10 sáhů, 3× denně (základní) nebo 5× denně (vyšší).",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "52ff2f2db992d12b",
+          "pdf_pages": [
+            12
+          ],
+          "printed_pages": null,
+          "section": "Draskara"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.draskara.drd_16.pilot8.2",
+      "entity_id": "bytost.draskara",
+      "system_id": "drd_16",
+      "edition": "DrD 16",
+      "application_version": null,
+      "variant": "vyssi",
+      "coverage": "partial_transcription",
+      "values": {
+        "zivotaschopnost": "5+6",
+        "Útok": "7/+4 (zuby)",
+        "obranne_cislo": 7,
+        "odolnost": 16,
+        "pohyblivost": "15 pozemní / 20 let",
+        "emoce": "nenávist",
+        "Magenergie": 25,
+        "Útok na brnění": 2
+      },
+      "summary": "Magie a pohlcování ohně, dvojnásobná rychlost a vidění ve tmě (v 1.6 upřesněno: za šera); vyšší varianta přidává pohlcování vzduchu a imunitu vůči ohni. Verze 1.6 uvádí dech 10 sáhů, 3× denně (základní) nebo 5× denně (vyšší).",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "52ff2f2db992d12b",
+          "pdf_pages": [
+            12
+          ],
+          "printed_pages": null,
+          "section": "Draskara, vyšší"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.draskara.drd_plus.pilot8.1",
+      "entity_id": "bytost.draskara",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "urovnovy_rust",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist",
+        "BČ": 5,
+        "ÚČ": "4 tlama / 5 dech",
+        "OČ": 4,
+        "Ochrana": 4,
+        "Zranění": "6 B",
+        "Náročnost": 65
+      },
+      "summary": "Ohnivý dech má Sílu 2×Úroveň a živlovou příslušnost +O. Pohlcování ohně, vidění ve tmě I; od 3. úrovně útok na brnění 4, od 4. pohlcování vzduchu, od 7. slepota II, od 11. vidění ve tmě II a od 15. slepota III. Volitelně lze pohlcený oheň místo léčení přidat k dalšímu dechu.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "b00b9e598d461ed2",
+          "pdf_pages": [
+            11
+          ],
+          "printed_pages": null,
+          "section": "Draskara"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.draskara.dh.pilot8.1",
+      "entity_id": "bytost.draskara",
+      "system_id": "dh",
+      "edition": null,
+      "application_version": "soubor FINAL 06/2025",
+      "variant": "jediny_nalezeny_blok",
+      "coverage": "partial_transcription",
+      "values": {
+        "zivoty": 32,
+        "uroven": 4,
+        "vyssi_moc": 10,
+        "emoce": "pole Vyvolávací emoce: krev huamy",
+        "Atributy": "SIL 14, OBR 16, ODO 14, INT 6, CHAR 10",
+        "Útok": "tlama 9/+2; drápy 8/+2",
+        "Obrana": "10 břicho / 6 záda",
+        "pohyblivost": "70 let / 20 země"
+      },
+      "summary": "Ohnivý dech do 3 m: Reflex proti 12, při neúspěchu 2k6, nejvýše jednou za čtyři kola a třikrát denně. Pohlcování ohně v okolí 50 m obnovuje dech nebo jej zesílí na 3k6. Zásah křídla má nevýhodu −5; alespoň 5 zranění ji na další kolo uzemní. Imunita vůči ohni; uvedená krev huamy je sporně zařazena do pole emoce.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            58,
+            59
+          ],
+          "printed_pages": [
+            57,
+            58
+          ],
+          "section": "DRASKARA"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.epyra.drd_16.pilot8.1",
+      "entity_id": "bytost.epyra",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "zakladni",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist",
+        "zivotaschopnost": 3,
+        "Útok": "5/+1",
+        "obranne_cislo": 6,
+        "odolnost": 16,
+        "pohyblivost": 18,
+        "Magenergie": 15
+      },
+      "summary": "Magie ohně, pravé vidění ve tmě; imunita proti jedu, ohni a slepotě. Odolnost vůči obyčejným zbraním 50 %, zranitelnost magií vody (2).",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": null,
+          "section": "Epyra"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.epyra.drd_16.pilot8.2",
+      "entity_id": "bytost.epyra",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "vyssi",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist",
+        "zivotaschopnost": 5,
+        "Útok": "7/+1",
+        "obranne_cislo": 8,
+        "odolnost": 20,
+        "pohyblivost": 22,
+        "Magenergie": 45
+      },
+      "summary": "Magie ohně, pravé vidění ve tmě; imunita proti jedu, ohni a slepotě. Vyšší varianta: oslepující záblesk, Obr ~ 6, 1–6 zranění a slepota 2–7 kol; místní neřízená teleportace, pasivní útok na zbraně 2 a imunita vůči obyčejným zbraním. Vodní zranitelnost základní varianty zde není zopakována.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": null,
+          "section": "Epyra, vyšší"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.epyra.drd_plus.pilot8.1",
+      "entity_id": "bytost.epyra",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "urovnovy_rust",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist",
+        "BČ": 7,
+        "ÚČ": 5,
+        "OČ": 7,
+        "Ochrana": 4,
+        "Zranění": "3 B"
+      },
+      "summary": "Energetická magie, vidění ve tmě III, odolnost vůči zbraním bez démona 4. Imunita +O, −Vo, jed a slepota; zranitelnost +Vo a −O po 9. Růst: úroveň 4 útok na zbraně 2 a slepota I; 6 teleportace 10 m; 8 rezistence vzduch 2; 9 rezistence −Z 2; 10 slepota II. Žár má ZZ Úroveň/3.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "092b9759ca38a589",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": null,
+          "section": "Epyra"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.epyra.drd_ii.pilot8.1",
+      "entity_id": "bytost.epyra",
+      "system_id": "drd_ii",
+      "edition": null,
+      "application_version": "Čas temna v1.0a",
+      "variant": "jediny_nalezeny_blok",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist",
+        "Charakteristika": "1–2",
+        "sudba": 4,
+        "hranice": "Tělo 3, Duše 3, Vliv 2"
+      },
+      "summary": "Běs: boj ve skupině, nezranitelnost ohněm, tlama krátká bodná. Žár je rozsáhlý plynný jed síly 3 (tělesná jizva 1 / lehké popáleniny); pohled do očí rychlý duševní jed síly 3 (dočasné oslepnutí / oslnění). Clona; zranitelnost vodou a vodní magií.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "6915d749657c9ef7",
+          "pdf_pages": [
+            68
+          ],
+          "printed_pages": null,
+          "section": "Epyra"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.epyra.dh.pilot8.1",
+      "entity_id": "bytost.epyra",
+      "system_id": "dh",
+      "edition": null,
+      "application_version": null,
+      "variant": "jediny_nalezeny_blok",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "touha",
+        "zivoty": 29,
+        "uroven": 3,
+        "vyssi_moc": 11,
+        "Atributy": "14/16/16/3/10 (SIL/OBR/ODO/INT/CHAR)",
+        "Útok": "8/+1k6 (žhavé zuby), přesně dle výsledku v prameni",
+        "Základní obrana": 9,
+        "Obrana": 10,
+        "pohyblivost": 50
+      },
+      "summary": "Rezistence vůči nemagickým zbraním a bleskům, imunita vůči jedu a ohni; slabina voda a chlad. Společné oslepení: epyry to kolo neútočí ani se nebrání, cíl Reflex proti počtu epyr; neúspěch znamená slepotu 1k10 kol a poté postupné zotavení, postih klesá o 1 za směnu. Pohled jednou za 3 kola, očekávající cíl má Výhodu +5. Skupina sesílá ohnivá kouzla s vlastními prodlevami. Protažení 1cm skulinou trvá 3 kola; srdce obsahuje 25 bodů destilovatelné magenergie.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            33,
+            34
+          ],
+          "printed_pages": [
+            32,
+            33
+          ],
+          "section": "EPYRY"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.temny-vlk.drd_16.pilot8.1",
+      "entity_id": "bytost.temny-vlk",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "zakladni",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist + strach",
+        "zivotaschopnost": "5+5",
+        "obranne_cislo": 6,
+        "odolnost": 18,
+        "Útok": "drápy 7/+2; tlama (+3+5/+2)=8/+3",
+        "pohyblivost": 18
+      },
+      "summary": "Jed, dvojnásobná rychlost a pravé vidění ve tmě; imunity vůči jedům, odsávání života, prokletí, slepotě a strachu. Jed Odl ~ 4: nic / 1–6, ihned po jedno kolo. Rezistence černá magie 25 %, neviditelnost 25 %, iluze 33 %. Zápis útočnosti tlamy je v prameni vnitřně rozporný; zachován beze změny.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "b8ddd5f0a53a31a9",
+          "pdf_pages": [
+            27
+          ],
+          "printed_pages": null,
+          "section": "Temný vlk"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.temny-vlk.drd_16.pilot8.2",
+      "entity_id": "bytost.temny-vlk",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "vyssi",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist + strach",
+        "zivotaschopnost": "7+6",
+        "obranne_cislo": 7,
+        "odolnost": 21,
+        "Útok": "drápy 9/+2; tlama (+4+7/+2)=11/+3",
+        "pohyblivost": 21
+      },
+      "summary": "Jed, dvojnásobná rychlost a pravé vidění ve tmě; imunity vůči jedům, odsávání života, prokletí, slepotě a strachu. Vyšší: černá magie, jed Odl ~ 6, paralýza Odl ~ 5 s postihem −3 na 2–7 kol, psychické útoky, místní řízená teleportace, 35 magů. Zápis útočnosti tlamy je v prameni vnitřně rozporný; zachován beze změny.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "b8ddd5f0a53a31a9",
+          "pdf_pages": [
+            27
+          ],
+          "printed_pages": null,
+          "section": "Temný vlk, vyšší"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.temny-vlk.drd_plus.pilot8.1",
+      "entity_id": "bytost.temny-vlk",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "urovnovy_rust",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist + strach",
+        "BČ": 6,
+        "ÚČ": 4,
+        "OČ": 4,
+        "Ochrana": 2,
+        "Zranění": "5 B"
+      },
+      "summary": "Vidění ve tmě I, jed −O s Účinkem = Velikost + 3 a okamžitým propuknutím; rezistence vitální magie 3, neviditelnost 2 a iluze 1. Imunity jed, odsávání života, prokletí, slepota a paralýza. Růst: úroveň 5 paralýza, 6 rezistence zmatení 1, 7 psychické útoky (čaroděj), 8 teleportace 20 m, 9 rezistence psychickým útokům 2, 11 vitální magie.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "27ffe33791ec8d55",
+          "pdf_pages": [
+            22
+          ],
+          "printed_pages": null,
+          "section": "Temný vlk"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.temny-vlk.drd_ii.pilot8.1",
+      "entity_id": "bytost.temny-vlk",
+      "system_id": "drd_ii",
+      "edition": null,
+      "application_version": "Sedmý živel v1.0c; 133 stran",
+      "variant": "jediny_nalezeny_blok",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist + strach",
+        "Charakteristika": "1–3",
+        "sudba": 5,
+        "hranice": "Tělo 3, Duše 2, Vliv 4"
+      },
+      "summary": "Nemrtvý, myšlenková bytost/běs. Kousnutí: rychlý tělesný jed síly 4, jizva úrovně 1 / částečná paralýza. Drápy střední sečná, zuby krátká bodná; talenty nemrtvého běsa, zranitelnost stříbrnými zbraněmi, neschopnost při svěcené vodě/zbrani a slunečním světle, člen skupiny a volitelně vůdce skupiny.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "f0cf9bf617deddee",
+          "pdf_pages": [
+            115
+          ],
+          "printed_pages": null,
+          "section": "Temný vlk"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "bytost.temny-vlk.dh.pilot8.1",
+      "entity_id": "bytost.temny-vlk",
+      "system_id": "dh",
+      "edition": null,
+      "application_version": null,
+      "variant": "jediny_nalezeny_blok",
+      "coverage": "partial_transcription",
+      "values": {
+        "emoce": "nenávist + strach",
+        "zivoty": 40,
+        "uroven": 5,
+        "vyssi_moc": 12,
+        "Útok": "zuby 9/+1 + zvláštní; drápy 8/+1",
+        "Základní obrana": 6,
+        "Obrana": 7,
+        "pohyblivost": 60
+      },
+      "summary": "Vidění v úplné tmě šedě; imunita vůči jedu a ovlivnění mysli. První kousnutí: Výdrž (ODO) proti 8, při neúspěchu −2 k hodům na SIL a OBR a 2k6 zranění. Trvání paralýzy blok neříká. Volitelně 30 magenergie denně na Teleport, Dotek upíra, Ochromení, Přivolej nemrtvé, Sugesci, Vize či další vypravěčova kouzla. Slabina a rezistence jsou výslovně „nemá“.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            74
+          ],
+          "printed_pages": [
+            73
+          ],
+          "section": "TEMNÝ VLK"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "rod.poustni-elf.drd_16.pilot8.1",
+      "entity_id": "rod.poustni-elf",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "rod a vrozený w’an",
+      "coverage": "partial_transcription",
+      "values": {
+        "Vrozená magenergie": "3 magy",
+        "Základ": "běžné tabulky elfí rasy"
+      },
+      "summary": "W’an je vrozený bez ohledu na povolání a slouží k sesílání druidových pouštních kouzel. Výcvik ve Nuenga Nam’batě může jiným rasám po šesti výcvicích dát 1 mag; pouštním elfům ani Nunmejcům nic nepřidává. Tento profil neuděluje rodové postavě všechny schopnosti povolání pouštního druida.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "52ff2f2db992d12b",
+          "pdf_pages": [
+            3
+          ],
+          "printed_pages": null,
+          "section": "Rasy; Druidova pouštní kouzla"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "rod.nunmejec.drd_16.pilot8.1",
+      "entity_id": "rod.nunmejec",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "národ a vrozený w’an",
+      "coverage": "partial_transcription",
+      "values": {
+        "Vrozená magenergie": "1 mag",
+        "Přístupné kouzlo": "orientace"
+      },
+      "summary": "Nunmejec má w’an od narození bez ohledu na povolání. Nemůže sesílat kouzla za veškerou současnou magenergii, proto mu z uvedené skupiny zbývá orientace. Rituál bouře na straně 6 je zvláštní naučitelná praktika, nikoli automatická schopnost každého Nunmejce.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "52ff2f2db992d12b",
+          "pdf_pages": [
+            3
+          ],
+          "printed_pages": null,
+          "section": "Rasy; Druidova pouštní kouzla"
+        },
+        {
+          "source_id": "52ff2f2db992d12b",
+          "pdf_pages": [
+            6
+          ],
+          "printed_pages": null,
+          "section": "Nunmejci — rituál bouře"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "rod.poustni-elf.drd_plus.pilot8.1",
+      "entity_id": "rod.poustni-elf",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "rod a pouštní dovednosti",
+      "coverage": "partial_transcription",
+      "values": {
+        "Opravy vlastností": "Sil −1, Obr +1, Zrč 0, Vol −2, Int +1, Chr +2",
+        "Odolnost": "bez postihu −1 běžného elfa"
+      },
+      "summary": "Pouštní elf s Pohybem v poušti alespoň 1 automaticky objeví neviditelné stezky a hesla. Neschůdnost na nich se snižuje na −5 (nikoli o 5). Pohyb v poušti je samostatná dovednost; nejde o převzetí magenergie 3 magů z DrD 1.6.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "092b9759ca38a589",
+          "pdf_pages": [
+            6
+          ],
+          "printed_pages": null,
+          "section": "Elfové; Tabulka vlastností elfů"
+        },
+        {
+          "source_id": "b00b9e598d461ed2",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "printed_pages": null,
+          "section": "Neviditelné stezky; Pohyb v poušti"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "rod.nunmejec.drd_plus.pilot8.1",
+      "entity_id": "rod.nunmejec",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "doporučený základ postavy",
+      "coverage": "partial_transcription",
+      "values": {
+        "Základ": "lidská subrasa horal"
+      },
+      "summary": "Čas temna výslovně nabízí horala k reprezentaci Nunmejců. Samostatný číselný w’an pro Nunmejce tento oddíl nedává; příslušnost k národu není záměna za pouštního elfa.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "092b9759ca38a589",
+          "pdf_pages": [
+            6
+          ],
+          "printed_pages": null,
+          "section": "Lidé; horal"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "rod.poustni-elf.dh.pilot8.1",
+      "entity_id": "rod.poustni-elf",
+      "system_id": "dh",
+      "edition": null,
+      "application_version": "hráčská aplikace 1.1, červen 2025",
+      "variant": "rodové vlastnosti",
+      "coverage": "partial_transcription",
+      "values": {
+        "Základ": "atributy elfa DH",
+        "W’an": "pouze Mar’Nub",
+        "Orientace": "+10 od 1. úrovně; výcvik o 5 dovednostních bodů levnější"
+      },
+      "summary": "Naslouchání harmonii pouště: Postřeh proti vzdálenosti tvora v km; při hledání jiného pouštního elfa postih −5, Nunmejce bez postihu, člověka bonus +3, skřeta +5. Reinkarnovaná duše se určuje hodem 1k10 a tabulkou vzpomínek; 1–2 jsou nové duše. Účinky za hranice Mar’Nub nepřenášet.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "cf40b2ed5c71d9b3",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "printed_pages": [
+            2,
+            3
+          ],
+          "section": "Mba-magawa-ngo; w’an; Reinkarnovaná duše"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "material.lintir.drd_16.pilot8.1",
+      "entity_id": "material.lintir",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "materiál",
+      "coverage": "partial_transcription",
+      "values": {
+        "Útočnost zbraně": "+1",
+        "Démoni": "minimální trvání pobytu ×3; počet použití beze změny"
+      },
+      "summary": "Zbraň má šanci 1 % snížit útočnost soupeřovy železné zbraně o 1; u jiného než železného materiálu roste šance o 1 %. Získávání a zpracování vyžaduje magii. Odkaz na kouzlo Tavení lintiru je technologická závislost, nikoli schopnost každé lintirové zbraně.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            6
+          ],
+          "printed_pages": null,
+          "section": "Lintir"
+        },
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            16,
+            17
+          ],
+          "printed_pages": null,
+          "section": "Tavení lintiru"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "material.lintir.drd_plus.pilot8.1",
+      "entity_id": "material.lintir",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "materiál",
+      "coverage": "partial_transcription",
+      "values": {
+        "ZZ zbraně": "+1",
+        "Výdrž démona": "+9",
+        "Odolnost materiálu": "+42"
+      },
+      "summary": "Omezený počet použití démona se nemění. Těžba a zpracování vyžadují kouzlo Roztav kov; nelze nahradit trojnásobným trváním z DrD 1.6.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "092b9759ca38a589",
+          "pdf_pages": [
+            10
+          ],
+          "printed_pages": null,
+          "section": "Lintir"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "material.lintir.drd_ii.pilot8.1",
+      "entity_id": "material.lintir",
+      "system_id": "drd_ii",
+      "edition": null,
+      "application_version": null,
+      "variant": "materiál",
+      "coverage": "partial_transcription",
+      "values": {
+        "Manévr": "Mocně zdarma",
+        "Zpracování": "Dračí dech"
+      },
+      "summary": "Mechanika materiálu poskytuje manévr Mocně zdarma. Zpracování je vázáno na schopnost Dračí dech. Nejde o číselný bonus k útoku přenesený z DrD.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "6915d749657c9ef7",
+          "pdf_pages": [
+            25
+          ],
+          "printed_pages": null,
+          "section": "Lintir"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "material.lintir.dh.pilot8.1",
+      "entity_id": "material.lintir",
+      "system_id": "dh",
+      "edition": null,
+      "application_version": null,
+      "variant": "materiál",
+      "coverage": "partial_transcription",
+      "values": {
+        "Zranění": "+2",
+        "Útočnost": "obvykle +1 díky kvalitě kováře; nikoli bezpodmínečný bonus kovu",
+        "Tavení": "dřevěné uhlí + asi 10/40 magenergie nebo 1/4 litru dhangy na zbraň/brnění"
+      },
+      "summary": "Předměty nerezaví, zůstávají ostré a nelze je poškodit kyselinou, ohněm, bojovým trikem ani kouzlem. Zlomit je může enormní tlak. Pramen připouští i další postupy tavení podle vypravěče. Nevymýšlet bonus KZ brnění: tento blok jej neuvádí.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "cf40b2ed5c71d9b3",
+          "pdf_pages": [
+            25
+          ],
+          "printed_pages": [
+            24
+          ],
+          "section": "LINTIR"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "predmet.albirejska-koruna.drd_16.pilot8.1",
+      "entity_id": "predmet.albirejska-koruna",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "artefakt",
+      "coverage": "partial_transcription",
+      "values": {
+        "OČ": "+2",
+        "Zloděj/sicco": "pravděpodobnost úspěchu proti nositeli čtvrtinová; neúspěch odhalen",
+        "Zmám osobu": "pravděpodobnost poloviční"
+      },
+      "summary": "Pro pasti kouzel ovlivňujících mysl se úroveň i bonus za inteligenci nositele počítají každý jako o 3 vyšší. Koruna jako alchymistický plášť hlasitě houká, pokud chce někdo nositele napadnout; siccova Antiplášť tuto ochranu obchází.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            24
+          ],
+          "printed_pages": null,
+          "section": "Albirejská koruna"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "predmet.albirejska-koruna.drd_plus.pilot8.1",
+      "entity_id": "predmet.albirejska-koruna",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "artefakt",
+      "coverage": "partial_transcription",
+      "values": {
+        "OČ": "+2",
+        "Zlodějské dovednosti": "obtížnost +12; neúspěch odhalen",
+        "Neovlivnitelnost": "+3",
+        "Mentální kouzla": "bonus +3 k odolání, pokud nositel se sesláním nesouhlasí",
+        "Věhlas": "+12"
+      },
+      "summary": "Varuje před útokem zezadu; zloděj ve stínové podobě může tuto ochranu obejít. Nepřenášet Charisma 22 z návrhu D&D.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "092b9759ca38a589",
+          "pdf_pages": [
+            14
+          ],
+          "printed_pages": null,
+          "section": "Albirejská koruna"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "predmet.albirejska-koruna.drd_ii.pilot8.1",
+      "entity_id": "predmet.albirejska-koruna",
+      "system_id": "drd_ii",
+      "edition": null,
+      "application_version": null,
+      "variant": "artefakt",
+      "coverage": "partial_transcription",
+      "values": {
+        "Vyčerpání": "o 2 zdroje levnější proti krádeži, přepadení, magii pocitů a lidské mysli",
+        "Přilba": "kvalita 2"
+      },
+      "summary": "Účinky se vyhodnocují prostřednictvím vyčerpání a kvality zbroje. Jde o jiný mechanický model než OČ a záchranné hody.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "6915d749657c9ef7",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": null,
+          "section": "Albirejská koruna"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "pravidlo.magicky-pomocnik.drd_16.pilot8.1",
+      "entity_id": "pravidlo.magicky-pomocnik",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "kouzelník — Vyvolání přítele",
+      "coverage": "partial_transcription",
+      "values": {
+        "Opakování": "každý druh přítele jednou za život",
+        "Neúspěch": "další pokus až na další úrovni; ani jiný druh dříve"
+      },
+      "summary": "Falešná apokalypsa rozšiřuje volbu přátel. Jsou myšlenkovými bytostmi a po smrti pána se zpravidla vracejí do Stínového světa. Rituál vychází z PPZ, pravděpodobnosti pro jednotlivé tvory jsou v připojené tabulce. Statblok každého pomocníka není součástí této obecné karty.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "a2f7ad353671cd4e",
+          "pdf_pages": [
+            17,
+            18
+          ],
+          "printed_pages": null,
+          "section": "Vyvolání přítele; tabulka přátel"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "pravidlo.magicky-pomocnik.drd_16.pilot8.2",
+      "entity_id": "pravidlo.magicky-pomocnik",
+      "system_id": "drd_16",
+      "edition": null,
+      "application_version": null,
+      "variant": "druid — stínový pomocník",
+      "coverage": "partial_transcription",
+      "values": {
+        "Dostupnost": "od 16. úrovně",
+        "Četnost": "jednou, výjimečně dvakrát za život",
+        "Rituál": "5–6 směn; 10 bodů únavy; veškerá současná magenergie"
+      },
+      "summary": "Velké kouzlo ekosystému využívá emoce zvířat a cítění ekosystému. Vyrušení rituál zmaří; do dvou směn po dokončení se objeví pomocník odpovídající zaměření druida. Text označuje čin jako porušení Řádu světa; nepřekládat jej automaticky běžným Najdi přítelíčka.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "363f39c80af334d4",
+          "pdf_pages": [
+            10
+          ],
+          "printed_pages": null,
+          "section": "Vyvolání stínového pomocníka"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "pravidlo.magicky-pomocnik.drd_plus.pilot8.1",
+      "entity_id": "pravidlo.magicky-pomocnik",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "čaroděj — pomocníčci",
+      "coverage": "partial_transcription",
+      "values": {
+        "Základní druhy": "krysa, netopýr, sova",
+        "Specializovaní": "nový druh na 3. a 6. stupni konkrétního oboru"
+      },
+      "summary": "Patnáct druhů: základní tři a dvojice pro šest oborů. Specializovaný pomocníček sesílá pouze kouzla svého oboru a nevyžaduje, aby je znal i čaroděj; oborové schopnosti neovládá. Krysa, netopýr, duhový motýl a stříbrné ryby mohou při zvýšení úrovně přitáhnout dalšího jedince při úspěchu i proti obtížnosti o 6 vyšší. Hejno sdílí magenergii; bonus při odolávání kouzlu je počet pomocníčků −1.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "2f1bc106b230efd0",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "printed_pages": null,
+          "section": "Čarodějovi pomocníčci; Magie pomocníčků; Více pomocníčků"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "pravidlo.magicky-pomocnik.drd_plus.pilot8.2",
+      "entity_id": "pravidlo.magicky-pomocnik",
+      "system_id": "drd_plus",
+      "edition": null,
+      "application_version": null,
+      "variant": "druid — cizí postava",
+      "coverage": "partial_transcription",
+      "values": {
+        "Dostupnost": "od 10. úrovně"
+      },
+      "summary": "Druid jako cizí postava může s pomocí salů přivolávat pomocníky ze Stínového světa; druh závisí na zaměření. Tento odstavec není kompletní rituál ani pravidlo pro libovolnou hráčskou postavu. Není totožný s druidem od 16. úrovně v DrD 1.6.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "756257111be36196",
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": null,
+          "section": "Druid"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "pravidlo.magicky-pomocnik.drd_ii.pilot8.1",
+      "entity_id": "pravidlo.magicky-pomocnik",
+      "system_id": "drd_ii",
+      "edition": null,
+      "application_version": null,
+      "variant": "nekromant — animovaný pomocník",
+      "coverage": "partial_transcription",
+      "values": {
+        "Model": "pomocník; připoutání oživovacím rituálem",
+        "Zánik": "Pouto pod 0 → zánik v dalším kole"
+      },
+      "summary": "Animovaný nemrtvý nemá vlastní vůli; Pouto reprezentuje oživovací magii a používá Duši místo Vlivu. Pouto lze jizvit a přesměrovat k jinému magikovi podle pravidel. Nemrtví ze Stínového světa mohou, ale nemusí být pomocníky. Jde o související nekromantský model, nikoli obecnou náhradu kouzelníkova přítele.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "f0cf9bf617deddee",
+          "pdf_pages": [
+            73,
+            74,
+            75
+          ],
+          "printed_pages": null,
+          "section": "Nekromancie; animovaní nemrtví a Pouto"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "pravidlo.magicky-pomocnik.dh.pilot8.1",
+      "entity_id": "pravidlo.magicky-pomocnik",
+      "system_id": "dh",
+      "edition": null,
+      "application_version": null,
+      "variant": "kouzelník — Vyvolání přítele",
+      "coverage": "partial_transcription",
+      "values": {
+        "Základ": "schopnost Vyvolání přítele DH",
+        "Vyšší moc": "odpovídá obtížnosti vyvolání"
+      },
+      "summary": "Aplikace dovoluje kouzelníka bez omezení, výslovně označuje jeho přátele za myšlenkové bytosti a odkazuje na Falešnou apokalypsu pro další druhy. Číselné bloky DrD 1.6 z Falešné apokalypsy nejsou tímto odkazem automaticky převedeny do DH.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "cf40b2ed5c71d9b3",
+          "pdf_pages": [
+            14
+          ],
+          "printed_pages": [
+            13
+          ],
+          "section": "KOUZELNÍK"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    },
+    {
+      "id": "pravidlo.magicky-pomocnik.dh.pilot8.2",
+      "entity_id": "pravidlo.magicky-pomocnik",
+      "system_id": "dh",
+      "edition": null,
+      "application_version": null,
+      "variant": "obecný rituál — související pravidlo",
+      "coverage": "partial_transcription",
+      "values": {
+        "Dovednost": "znalostní, 3. stupeň; CHAR proti Vyšší moci",
+        "Čas": "Vyšší moc ve směnách",
+        "Cena": "7× Vyšší moc v magenergii / duševní síle / přízni",
+        "Únava": "Vyšší moc"
+      },
+      "summary": "Je třeba znát jméno, Vyšší moc a emoci bytosti; živý tvor musí emoci během rituálu pociťovat. Každé zdvojnásobení účastníků se stejnou emocí dává +1. Výsledek rozlišuje příznivý vztah, pouhou vděčnost, neúspěch i nepřátelské přivolání. Není zaručena poslušnost ani dlouhodobé pouto; neslučovat s Vyvoláním přítele.",
+      "is_complete_statblock": false,
+      "source_refs": [
+        {
+          "source_id": "cf40b2ed5c71d9b3",
+          "pdf_pages": [
+            7
+          ],
+          "printed_pages": [
+            6
+          ],
+          "section": "PŘIVOLÁNÍ MYŠLENKOVÝCH BYTOSTÍ"
+        }
+      ],
+      "state": "Pracovní přepis veřejné aplikace"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "pilot8.draskara-emoce",
+      "entity_ids": [
+        "bytost.draskara"
+      ],
+      "title": "Draskara: nenávist × krev huamy",
+      "description": "Starší aplikace uvádějí nenávist. DH má v poli vyvolávací emoce krev huamy, což není cit. Je třeba rozhodnout, zda jde o podmínku vzniku, oběť, či chybu zařazení.",
+      "recommendation": "Zachovat obě znění. Případnou změnu schválit a zapracovat do nové verze, nikoli do pramene.",
+      "type": "source_conflict",
+      "status": "open",
+      "source_refs": [
+        {
+          "source_id": "52ff2f2db992d12b",
+          "pdf_pages": [
+            12
+          ],
+          "printed_pages": null,
+          "section": "Draskara"
+        },
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            58
+          ],
+          "printed_pages": [
+            57
+          ],
+          "section": "DRASKARA"
+        }
+      ]
+    },
+    {
+      "id": "pilot8.epyra-emoce",
+      "entity_ids": [
+        "bytost.epyra"
+      ],
+      "title": "Epyra: nenávist × touha",
+      "description": "DrD 1.6, DrD+ a DrD II uvádějí nenávist; DH touhu. Toto je rozpor stejné popisné vlastnosti, nikoli rozdílná stupnice životů.",
+      "recommendation": "Zachovat obě znění. Případnou změnu schválit a zapracovat do nové verze, nikoli do pramene.",
+      "type": "source_conflict",
+      "status": "open",
+      "source_refs": [
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": null,
+          "section": "Epyra"
+        },
+        {
+          "source_id": "092b9759ca38a589",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": null,
+          "section": "Epyra"
+        },
+        {
+          "source_id": "6915d749657c9ef7",
+          "pdf_pages": [
+            68
+          ],
+          "printed_pages": null,
+          "section": "Epyra"
+        },
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            32
+          ],
+          "section": "EPYRY"
+        }
+      ]
+    },
+    {
+      "id": "pilot8.vlk-tlama",
+      "entity_ids": [
+        "bytost.temny-vlk"
+      ],
+      "title": "Temný vlk DrD 1.6: rozporný zápis útočnosti tlamy",
+      "description": "Základní (+3 + 5/+2) = 8/+3 a vyšší (+4 + 7/+2) = 11/+3 mění /+2 na /+3 uvnitř stejného řádku. Obraz PDF potvrzuje, že nejde o chybu extrakce.",
+      "recommendation": "Zachovat obě znění. Případnou změnu schválit a zapracovat do nové verze, nikoli do pramene.",
+      "type": "internal_inconsistency",
+      "status": "open",
+      "source_refs": [
+        {
+          "source_id": "b8ddd5f0a53a31a9",
+          "pdf_pages": [
+            27
+          ],
+          "printed_pages": null,
+          "section": "Temný vlk — oba útoky tlamou"
+        }
+      ]
+    },
+    {
+      "id": "pilot8.vlk-paralyza",
+      "entity_ids": [
+        "bytost.temny-vlk"
+      ],
+      "title": "Temný vlk DH: neurčené trvání paralýzy",
+      "description": "Kousnutí stanoví −2 k hodům na SIL a OBR, ale ne délku postihu ani ukončení. Nelze převzít 2–7 kol z DrD 1.6.",
+      "recommendation": "Zachovat obě znění. Případnou změnu schválit a zapracovat do nové verze, nikoli do pramene.",
+      "type": "missing_parameter",
+      "status": "open",
+      "source_refs": [
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            74
+          ],
+          "printed_pages": [
+            73
+          ],
+          "section": "Kousnutí"
+        }
+      ]
+    },
+    {
+      "id": "pilot8.vlk-slabiny",
+      "entity_ids": [
+        "bytost.temny-vlk"
+      ],
+      "title": "Temný vlk: stříbro a slunce nejsou univerzální slabiny",
+      "description": "DrD II výslovně uvádí stříbrné zbraně, svěcenou vodu/zbraň a sluneční světlo. DH výslovně uvádí „Slabina: nemá“. Profily si nesmějí vzájemně doplňovat slabiny.",
+      "recommendation": "Zachovat obě znění. Případnou změnu schválit a zapracovat do nové verze, nikoli do pramene.",
+      "type": "cross_system_difference",
+      "status": "open",
+      "source_refs": [
+        {
+          "source_id": "f0cf9bf617deddee",
+          "pdf_pages": [
+            115
+          ],
+          "printed_pages": null,
+          "section": "Temný vlk"
+        },
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            74
+          ],
+          "printed_pages": [
+            73
+          ],
+          "section": "TEMNÝ VLK"
+        }
+      ]
+    },
+    {
+      "id": "pilot8.nunmejec-dh",
+      "entity_ids": [
+        "rod.nunmejec"
+      ],
+      "title": "Nunmejec DH: cíl elfího smyslu není nositel schopnosti",
+      "description": "Zmínka „U Nunmejců je hod bez postihu“ upravuje hod elfa, který Nunmejce hledá. Nedokládá vlastní w’an Nunmejce. V evidenci DH je proto označena mezera specifické aplikace, nikoli přidělena elfí schopnost.",
+      "recommendation": "Zachovat obě znění. Případnou změnu schválit a zapracovat do nové verze, nikoli do pramene.",
+      "type": "scope_ambiguity",
+      "status": "open",
+      "source_refs": [
+        {
+          "source_id": "cf40b2ed5c71d9b3",
+          "pdf_pages": [
+            3
+          ],
+          "printed_pages": [
+            2
+          ],
+          "section": "Naslouchání harmonii pouště"
+        }
+      ]
+    },
+    {
+      "id": "public.huama-emoce",
+      "entity_ids": [
+        "bytost.huama"
+      ],
+      "title": "Huama: strach × rozhořčení",
+      "description": "Veřejná aplikace DrD 1.6 uvádí vyvolávací emoci strach, veřejná aplikace Dračí hlídky rozhořčení. Jde o rozdíl v popisu téže bytosti, nikoli o převod číselné stupnice.",
+      "recommendation": "Obě znění zachovat u jejich systémů. Bez autorského rozhodnutí žádné z nich nepovýšit na společné pravidlo světa.",
+      "type": "source_conflict",
+      "status": "open",
+      "source_refs": [
+        {
+          "source_id": "5c501dc2e12c7308",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": null,
+          "section": "Huama"
+        },
+        {
+          "source_id": "c8a2b6f80e297313",
+          "pdf_pages": [
+            35
+          ],
+          "printed_pages": [
+            34
+          ],
+          "section": "Huama"
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "drd_15",
+      "label": "DrD 1.5"
+    },
+    {
+      "id": "drd_16",
+      "label": "DrD 1.6"
+    },
+    {
+      "id": "drd_plus",
+      "label": "DrD+"
+    },
+    {
+      "id": "drd_ii",
+      "label": "DrD II"
+    },
+    {
+      "id": "dh",
+      "label": "Dračí hlídka"
+    },
+    {
+      "id": "jad",
+      "label": "Jeskyně a draci"
+    },
+    {
+      "id": "dnd5e_2014",
+      "label": "D&D 5e — linie 2014"
+    },
+    {
+      "id": "dnd5e_2024",
+      "label": "D&D 2024 / SRD 5.2.1"
+    }
+  ],
+  "scope": "Srovnávací pilot devíti položek; celé veřejné aplikace jsou v čtečce dokumentů. Soukromé návrhy nejsou součástí veřejného exportu."
+}
