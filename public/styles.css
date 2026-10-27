@@ -11,3 +11,9 @@
 @media(max-width:760px){.reader-controls .segmented{flex:0 0 100%;width:100%}.segmented button{white-space:nowrap}.reader-controls{align-items:stretch}}
 
 .pdf-surface{padding:16px;min-width:100%;width:max-content;background:#b6b9b4}.pdf-surface canvas{display:block;background:white;box-shadow:0 3px 16px #0003}.pdf-surface[data-zoom=fit]{width:100%}.pdf-surface[data-zoom=fit] canvas{max-width:100%;height:auto!important}
+/* Source blocks preserve line-level provenance without forcing a second pane. */
+.source-block { margin: 1rem 0; border: 1px solid var(--line, #b9a991); border-radius: .35rem; }
+.source-block summary { padding: .85rem 1rem; cursor: pointer; font-weight: 650; }
+.source-transcript { padding: 0 1rem 1rem; white-space: pre-wrap; overflow-wrap: anywhere; font-family: inherit; font-size: .96rem; line-height: 1.6; }
+.version { font-size: .8rem; opacity: .75; overflow-wrap: anywhere; }
+.outline-panel #entity-list { max-height: 65vh; overflow-y: auto; }

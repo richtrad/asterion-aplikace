@@ -1,22 +1,30 @@
 # Asterion — pravidlové aplikace
 
-Veřejná knihovna pravidlových aplikací s dvojicí nezávislých čtecích panelů.
+Veřejná knihovna pravidlových aplikací s jedním výchozím a volitelným druhým čtecím panelem.
 Vychází ze vzhledu elektronické edice modulů Asterionu. Tento projekt je samostatný;
 neobsahuje soukromé modulové texty, diskuse ani interní rukopisy.
 
 ## Čtení a porovnávání
 
 - Jeden nebo dva panely, v každém vlastní pravidla, dokument, stránka a posuv.
-- Společný výběr položky pro přímé srovnání devíti položek pilotu.
+- 237 myšlenkových bytostí a pět dalších pilotních položek; hledání napříč moduly i podle názvů variant.
 - Celé veřejné aplikace jako text nebo původní PDF; hledání uvnitř každého dokumentu.
 - Prameny, varianty a otevřené rozpory u jednotlivých karet.
 - Sdílení odkazu na modul, položku, systémy a režim čtení; tři vzhledy.
 - Na mobilu jsou oba panely pod sebou.
 
-Sada z 27. 10. 2026 obsahuje 29 veřejných PDF, 38 pracovních pravidlových profilů
-a 7 nálezů k řešení. Srovnávací karty nejsou kompletní statbloky. Dostupnost karty
-se liší od dostupnosti celého dokumentu. JaD a D&D 2024 nejsou zaměňovány s DnD 5e
-v0.1, které je uvedeno uvnitř veřejného PDF Času temna.
+Sada z 27. 10. 2026 obsahuje 29 veřejných PDF, 999 profilů (z toho 961 zdrojových bloků)
+a 176 otevřených nálezů a rozdílů. Varianty, vydání, tabulky růstu pomocníčků a
+společné bloky více bytostí zůstávají rozlišeny. Text je automatický výpis
+s kontrolovanými hranicemi a ověřením vybraných stran, nikoli úplná mechanická
+revize. Pole jsou výběrem údajů; pro hru platí také obecná pravidla původní aplikace.
+JaD a D&D 2024 nejsou zaměňovány s DnD 5e v0.1, uvedeným uvnitř veřejného PDF
+Času temna. Pracovní JaD a neveřejné historické podklady patří do místního Obsidianu.
+
+Výchozí odkaz `#read` otevře jeden panel. `split=1` zapíná druhý panel a zachovává
+starší sdílené odkazy. Volba „Všechny moduly“ hledá v celé veřejné sadě. Rozdíly
+v emocích jsou podněty k rozhodnutí, nikoli automaticky potvrzené chyby. Jmenné
+odchylky mají zvláštní varování a původní nadpis každého bloku je zachován.
 
 ## Původ obsahu
 

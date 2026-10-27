@@ -10,6 +10,15 @@ test('share link preserves independent systems and two-panel mode',()=>{
  const s={module:'pp',entity:'rod.nunmejec',left:'drd_plus',right:'dh',view:'document',split:false};
  assert.deepEqual(parseState(stateHash(s),cat,rules),{route:'read',...s});
 });
+
+test('one panel is the default; comparison is explicit and shareable',()=>{
+ assert.equal(parseState('#read',cat,rules).split,false);
+ assert.equal(parseState('#read?split=1',cat,rules).split,true);
+ assert.equal(parseState('#read?split=0',cat,rules).split,false);
+ const s=parseState('#read?module=all&entity=bytost.minva&split=1',cat,rules);
+ assert.equal(s.module,'all');assert.equal(s.entity,'bytost.minva');
+ assert.equal(parseState(stateHash(s),cat,rules).split,true);
+});
 test('invalid route values and foreign-module entity cannot select unrelated cards',()=>{
  const s=parseState('#read?module=pp&entity=bytost.huama&left=unknown',cat,rules);
  assert.equal(s.left,'drd_16');assert(entitiesFor(rules,'pp').some(e=>e.id===s.entity));
@@ -42,7 +51,9 @@ test('every public PDF matches official-source digest and extracted page count',
  }
 });
 test('all public cards and findings cite only downloaded public PDFs and valid pages',()=>{
- assert.equal(rules.entities.length,9);assert.equal(rules.profiles.length,38);
+ assert(rules.entities.length>200);assert(rules.profiles.length>900);
+ assert.equal(rules.counts.thoughtBeings,rules.entities.filter(e=>e.kind==='bytost').length);
+ assert.equal(rules.counts.sourceBlocks,rules.profiles.filter(p=>p.text).length);
  for(const p of [...rules.profiles,...rules.decisions]){
   assert(p.source_refs.length);
   for(const r of p.source_refs){
@@ -54,4 +65,17 @@ test('all public cards and findings cite only downloaded public PDFs and valid p
  const data=JSON.stringify(rules);
  assert(!/C:\\\\Users|docs\.google\.com|discord\.com|raw_snapshot|snapshot_path|source_path/i.test(data));
  assert.equal(readdirSync(new URL('pdf/',root)).length,cat.documents.length);
+});
+
+test('variants, shared blocks, aliases and gaps survive the export',()=>{
+ assert(entitiesFor(rules,'all','kvilice').some(e=>e.id==='bytost.bansi'));
+ assert(entitiesFor(rules,'all','dvouhlavec').some(e=>e.id==='bytost.mnohohlavy-obr'));
+ const minva=profilesFor(rules,'bytost.minva','drd_16').find(p=>p.text);
+ assert(minva.text.includes('Minva / Ralva'));assert.equal(minva.values,null);
+ assert.equal(profilesFor(rules,'bytost.huama','dnd5e_2014').filter(p=>p.text).length,2);
+ assert.equal(profilesFor(rules,'bytost.huama','jad').length,0);
+ assert.equal(profilesFor(rules,'bytost.vanga','drd_16').filter(p=>p.text).length,2);
+ assert(!rules.entities.some(e=>e.label==='Draci'||/^\d+$/.test(e.label)));
+ assert(rules.decisions.some(d=>d.type==='identity_to_review'));
+ assert(rules.decisions.some(d=>d.entity_ids.includes('bytost.epyra')&&d.description.includes('touha')));
 });
