@@ -11,6 +11,6 @@ export function parseState(hash,cat,rules){
 }
 export function stateHash(s){const p=new URLSearchParams();for(const k of ['module','entity','left','right','view'])p.set(k,s[k]);p.set('split',s.split?'1':'0');return '#read?'+p}
 export function entitiesFor(rules,module,query='',kind='all'){return rules.entities.filter(e=>(['all','dh-all'].includes(module)||e.modules.includes(module))&&(kind==='all'||e.kind===kind)&&norm([e.label,...(e.aliases||[])].join(' ')).includes(norm(query))).sort((a,b)=>a.label.localeCompare(b.label,'cs'))}
-export function profilesFor(rules,entity,system){return rules.profiles.filter(p=>p.entity_id===entity&&p.system_id===system).sort((a,b)=>Number(Boolean(b.text))-Number(Boolean(a.text)))}
+export function profilesFor(rules,entity,system){return rules.profiles.filter(p=>p.entity_id===entity&&p.system_id===system).sort((a,b)=>Number(a.coverage==='new_proposal')-Number(b.coverage==='new_proposal')||Number(Boolean(b.text))-Number(Boolean(a.text)))}
 export function documentsFor(cat,module,system){return cat.documents.filter(d=>d.system===system&&(d.module===module||d.module==='dh-all'||['all','dh-all'].includes(module)||(module==='ns'&&d.module==='sz'&&system==='drd_ii')))}
 export function pageNumber(value,total){return Math.max(1,Math.min(total,Math.trunc(Number(value))||1))}

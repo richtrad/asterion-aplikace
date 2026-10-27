@@ -17,3 +17,13 @@
 .source-transcript { padding: 0 1rem 1rem; white-space: pre-wrap; overflow-wrap: anywhere; font-family: inherit; font-size: .96rem; line-height: 1.6; }
 .version { font-size: .8rem; opacity: .75; overflow-wrap: anywhere; }
 .outline-panel #entity-list { max-height: 65vh; overflow-y: auto; }
+/* Editorial work is visually distinct from a source transcription. */
+.conversion-review{border:1px solid var(--line,#b8ac91);padding:1rem;margin:1.25rem 0;background:color-mix(in srgb,currentColor 3%,transparent)}
+.conversion-review>summary,.proposal-options>summary{cursor:pointer;font-weight:650}
+.feature-choice{padding:.65rem 0;border-bottom:1px solid var(--line,#b8ac91)}
+.proposal-warning{border-left:4px solid #b77720;padding:.8rem 1rem;background:color-mix(in srgb,#b77720 9%,transparent);margin:1rem 0}
+.proposal-warning p:last-child{margin-bottom:0}
+.proposal-options{margin:1rem 0;padding:.8rem;border:1px solid var(--line,#b8ac91)}
+.proposal-options label{display:grid;gap:.5rem;margin-top:1rem}
+.proposal-options select{max-width:100%;padding:.6rem;color:inherit;background:var(--paper,#fff);border:1px solid var(--line,#b8ac91)}
+.proposed-profile{border-top:3px solid #b77720}

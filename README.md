@@ -28,6 +28,20 @@ odchylky mají zvláštní varování a původní nadpis každého bloku je zach
 
 ## Původ obsahu
 
+### Návrhy převodů
+
+Navazující revize přidala 93 veřejných návrhů: 26 autorských testovacích bloků
+a 67 kompatibilních návrhů JaD. Celkem web zobrazuje 1 092 profilů a 300 nálezů.
+Původní znění zůstalo zachované. Nové návrhy mají odlišný štítek, návrhové hodnoty,
+varianty A/B, předlohy a neprovedený herní test. Nebezpečnost je pouze odhad.
+JaD návrh není nově nalezená oficiální aplikace. Soukromé výchozí podklady se
+neexportují, ani když na nich vznikl nový návrh.
+
+U všech 237 veřejných bytostí je část „Vazby a možnosti převodu“. Podklady
+k rozhodnutí se nepočítají jako hotové aplikace. D&D 2024 zůstává samostatnou
+nedokončenou linií. Pracovní volba A/B se ukládá pouze do localStorage tohoto
+prohlížeče, neodesílá se na server a nemění profil, Obsidian ani schválení.
+
 Jediným vstupem pro zveřejněné PDF je
 [oficiální katalog Asterionu](https://asterionrpg.cz/index.php/aplikace-pravidel.html).
 `public/data/catalogue.json` uvádí původní URL, SHA-256, rozsah a systém každého
@@ -39,7 +53,9 @@ Vyžaduje Python 3 a PyMuPDF (`python -m pip install pymupdf`).
 `scripts/export_registry.py` vytváří omezený veřejný výřez z místního redakčního
 registru v sousedním projektu; registr není součástí tohoto repozitáře. Export
 připustí pouze záznamy, jejichž všechny prameny odpovídají veřejným PDF podle
-obsahového identifikátoru. Soukromé poznámky, cesty a nedoložené návrhy se neexportují.
+obsahového identifikátoru. Nové redakční návrhy se exportují jen s veřejnými
+předlohami a výslovným označením původu; nejsou vydávány za text pramene.
+Soukromé poznámky, cesty a starší neveřejné návrhy se neexportují.
 Pro běžné spuštění není regenerace ani přístup k registru potřebný.
 
 ## Místní spuštění a kontrola
